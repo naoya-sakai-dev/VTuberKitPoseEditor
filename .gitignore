@@ -12,7 +12,6 @@ build/
 
 # SwiftPM
 .build/
-Package.resolved
 
 # Carthage
 Carthage/Build/
