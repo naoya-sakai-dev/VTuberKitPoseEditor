@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0637B5BF2AAD8FAB000F8220 /* VTuberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0637B5BE2AAD8FAB000F8220 /* VTuberKit */; };
+		0637B5C12AAD9254000F8220 /* AliciaSolid.vrm in Resources */ = {isa = PBXBuildFile; fileRef = 0637B5C02AAD9254000F8220 /* AliciaSolid.vrm */; };
+		18143E832AEA423200FD4DA4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18143E812AEA423200FD4DA4 /* Model.xcdatamodeld */; };
+		18BAD5C32AB1FE35005E404B /* VTuberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18BAD5C22AB1FE35005E404B /* VTuberKit */; };
+		247DCF192210840300E4C87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247DCF182210840300E4C87F /* AppDelegate.swift */; };
+		247DCF1B2210840300E4C87F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247DCF1A2210840300E4C87F /* ViewController.swift */; };
+		247DCF1E2210840300E4C87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247DCF1C2210840300E4C87F /* Main.storyboard */; };
+		247DCF202210840600E4C87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247DCF1F2210840600E4C87F /* Assets.xcassets */; };
+		247DCF232210840600E4C87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247DCF212210840600E4C87F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		247DCF4522115AC900E4C87F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0637B5C02AAD9254000F8220 /* AliciaSolid.vrm */ = {isa = PBXFileReference; lastKnownFileType = file; path = AliciaSolid.vrm; sourceTree = "<group>"; };
+		18143E822AEA423200FD4DA4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		247DCF162210840300E4C87F /* VTuberKitPoseEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTuberKitPoseEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247DCF182210840300E4C87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247DCF1A2210840300E4C87F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247DCF1D2210840300E4C87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247DCF1F2210840600E4C87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		247DCF222210840600E4C87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		247DCF242210840600E4C87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247DCF132210840300E4C87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0637B5BF2AAD8FAB000F8220 /* VTuberKit in Frameworks */,
+				18BAD5C32AB1FE35005E404B /* VTuberKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247DCEEE221083A700E4C87F = {
+			isa = PBXGroup;
+			children = (
+				247DCF172210840300E4C87F /* VTuberKitPoseEditor */,
+				247DCEF9221083A700E4C87F /* Products */,
+				247DCF3C22115AAD00E4C87F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		247DCEF9221083A700E4C87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247DCF162210840300E4C87F /* VTuberKitPoseEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247DCF172210840300E4C87F /* VTuberKitPoseEditor */ = {
+			isa = PBXGroup;
+			children = (
+				0637B5C02AAD9254000F8220 /* AliciaSolid.vrm */,
+				247DCF182210840300E4C87F /* AppDelegate.swift */,
+				247DCF1A2210840300E4C87F /* ViewController.swift */,
+				247DCF1C2210840300E4C87F /* Main.storyboard */,
+				247DCF1F2210840600E4C87F /* Assets.xcassets */,
+				247DCF212210840600E4C87F /* LaunchScreen.storyboard */,
+				247DCF242210840600E4C87F /* Info.plist */,
+				18143E812AEA423200FD4DA4 /* Model.xcdatamodeld */,
+			);
+			path = VTuberKitPoseEditor;
+			sourceTree = "<group>";
+		};
+		247DCF3C22115AAD00E4C87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247DCF152210840300E4C87F /* VTuberKitPoseEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247DCF252210840600E4C87F /* Build configuration list for PBXNativeTarget "VTuberKitPoseEditor" */;
+			buildPhases = (
+				247DCF122210840300E4C87F /* Sources */,
+				247DCF132210840300E4C87F /* Frameworks */,
+				247DCF142210840300E4C87F /* Resources */,
+				247DCF4522115AC900E4C87F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VTuberKitPoseEditor;
+			packageProductDependencies = (
+				0637B5BE2AAD8FAB000F8220 /* VTuberKit */,
+				18BAD5C22AB1FE35005E404B /* VTuberKit */,
+			);
+			productName = VTuberKitPoseEditor;
+			productReference = 247DCF162210840300E4C87F /* VTuberKitPoseEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247DCEEF221083A700E4C87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "Tatsuya Tanaka";
+				TargetAttributes = {
+					247DCF152210840300E4C87F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 247DCEF2221083A700E4C87F /* Build configuration list for PBXProject "VTuberKitPoseEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 247DCEEE221083A700E4C87F;
+			packageReferences = (
+				18BAD5C12AB1FE35005E404B /* XCRemoteSwiftPackageReference "VTuberKit" */,
+			);
+			productRefGroup = 247DCEF9221083A700E4C87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247DCF152210840300E4C87F /* VTuberKitPoseEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247DCF142210840300E4C87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0637B5C12AAD9254000F8220 /* AliciaSolid.vrm in Resources */,
+				247DCF232210840600E4C87F /* LaunchScreen.storyboard in Resources */,
+				247DCF202210840600E4C87F /* Assets.xcassets in Resources */,
+				247DCF1E2210840300E4C87F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247DCF122210840300E4C87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247DCF1B2210840300E4C87F /* ViewController.swift in Sources */,
+				247DCF192210840300E4C87F /* AppDelegate.swift in Sources */,
+				18143E832AEA423200FD4DA4 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		247DCF1C2210840300E4C87F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247DCF1D2210840300E4C87F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		247DCF212210840600E4C87F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247DCF222210840600E4C87F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247DCF0A221083A700E4C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		247DCF0B221083A700E4C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		247DCF262210840600E4C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XC96UM2A3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VTuberKitPoseEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.VTuberKitPoseEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247DCF272210840600E4C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XC96UM2A3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VTuberKitPoseEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.tattn.VTuberKitPoseEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247DCEF2221083A700E4C87F /* Build configuration list for PBXProject "VTuberKitPoseEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247DCF0A221083A700E4C87F /* Debug */,
+				247DCF0B221083A700E4C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247DCF252210840600E4C87F /* Build configuration list for PBXNativeTarget "VTuberKitPoseEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247DCF262210840600E4C87F /* Debug */,
+				247DCF272210840600E4C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18BAD5C12AB1FE35005E404B /* XCRemoteSwiftPackageReference "VTuberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tattn/VTuberKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0637B5BE2AAD8FAB000F8220 /* VTuberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VTuberKit;
+		};
+		18BAD5C22AB1FE35005E404B /* VTuberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18BAD5C12AB1FE35005E404B /* XCRemoteSwiftPackageReference "VTuberKit" */;
+			productName = VTuberKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		18143E812AEA423200FD4DA4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18143E822AEA423200FD4DA4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 18143E822AEA423200FD4DA4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 247DCEEF221083A700E4C87F /* Project object */;
+}
